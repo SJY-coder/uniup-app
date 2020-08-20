@@ -1,0 +1,67 @@
+#about {
+  text-align: center;
+  /* background-size: cover; */
+  padding: 3% 7%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    to top right,
+    rgba(2, 0, 36, 0) 50%,
+    rgba(2, 0, 36, 0.6) 50%
+  );
+  width: 100vw;
+  height: 95vh;
+  margin: 0;
+}
+.about-background {
+  width: 100vw;
+  height: 95vh;
+  margin: 0;
+  padding: 0%;
+  position: absolute;
+  z-index: -1;
+  background-image: url("https://images.unsplash.com/photo-1573187155459-988745ff3042?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about-h1 {
+  display: block;
+  height: 5%;
+  font-size: larger;
+  text-align: center;
+  color: white;
+  background-color: rgba(58, 187, 226, 0.4);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+  overflow: hidden;
+}
+.about-table {
+  display: block;
+  height: 80%;
+  margin: 4% 7%;
+  width: 80%;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  overflow: hidden;
+}
+.about-1,
+.about-3 {
+ display: block;
+ height: 25%;
+  font-size: smaller;
+  text-align: left;
+  background-color: #1b262c;
+  color: white;
+}
+.about-2,
+.about-4 {
+    display: block;
+    height: 25%;
+  font-size: smaller;
+  text-align: right;
+  background-color: #0f4c75;
+  color: white;
+}
+.about-table td {
+  padding: 1% 2%;
+}

@@ -1,0 +1,49 @@
+#concept {
+  text-align: center;
+ 
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    to bottom right,
+    rgba(2, 0, 36, 0) 50%,
+    rgba(2, 0, 36, 0.6) 50%
+  );
+  padding: 3% 7%;
+  /* background-attachment: fixed; */
+  height: 95vh;
+}
+.concept-background{
+  background-attachment: fixed;
+  width: 100vw;
+  height: 95vh;
+  margin: 0;
+  padding: 0%;
+  position: relative;
+  z-index: -1;
+  background-image: url('https://images.pexels.com/photos/4077640/pexels-photo-4077640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+}
+.concept-h1 {
+  font-size: 3rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+}
+.concept-logo {
+  padding: 0 3%;
+  display: block;
+  clear: right;
+  height: auto;
+}
+.concept-vision {
+  padding: 0 3%;
+  display: block;
+  float: right;
+  clear: left;
+  height: auto;
+}
+.card-img {
+  height: 100%;
+}
+.card {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}

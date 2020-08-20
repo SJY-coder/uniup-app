@@ -1,0 +1,47 @@
+#sikumi {
+  text-align: center;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    to bottom right,
+    rgba(2, 0, 36, 0) 50%,
+    rgba(2, 0, 36, 0.6) 50%
+  );
+  padding: 3% 7%;
+  /* background-attachment: fixed; */
+  height: 95vh;
+  width: 100vw;
+}
+.sikumi-background {
+  background-attachment: fixed;
+  width: 100vw;
+  height: 95vh;
+  margin: 0;
+  padding: 0%;
+  position: absolute;
+  z-index: -1;
+  background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sikumi-explain {
+  color: white;
+  background-color: rgba(2, 123, 255, 0.8);
+  display: block;
+  height: 70vh;
+  width: 80%;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.sikumi-h1 {
+  display: block;
+  height: 5%;
+  font-size: larger;
+  text-align: center;
+  color: white;
+  background-color: rgba(58, 187, 226, 0.4);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+  overflow: hidden;
+}
