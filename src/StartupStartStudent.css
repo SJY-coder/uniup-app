@@ -1,0 +1,171 @@
+.gakubu-wrapper, .student-wrapper{
+    height: 100vh;
+    background: rgb(186,195,34);
+    background: linear-gradient(to top left, rgba(186,195,34,1) 6%, rgba(253,114,45,1) 46%);
+
+}
+.gakka-wrapper{
+    height: 100vh;
+    background: rgb(186,195,34);
+    background: linear-gradient(to bottom left, rgba(186,195,34,1) 6%, rgba(253,114,45,1) 46%);
+
+}
+.gakubu-wrapper h1{
+    position: absolute;
+    top: 12.5vh;
+    left: 23vw;
+text-align: center;
+font-size: 27vw;
+font-weight: bold;
+}
+.upper-triangle{
+    position: absolute;
+    z-index: 1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255,1) 50%,
+        rgba(254, 255, 0, 0) 50%
+      );
+    width: 77vw;
+    height: 18vh;
+    top: 27vh;
+    left: 11.5vw;
+    border-radius: 10px 0;
+}
+.upper-triangle h3{
+    font-size: 4vh;
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+}
+.bottom-triangle{
+    position: absolute;
+    z-index: 1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(3, 3, 3,1) 50%
+      );
+      border-radius: 10px 0;
+    width: 77vw;
+    height: 18vh;
+    top: 28vh;
+    left: 11.5vw;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bottom-triangle h3{
+    font-size: 4vh;
+    color: white;
+    position: absolute;
+    bottom: 4vw;
+    right: 4vw;
+}
+.upper-triangle2{
+    position: absolute;
+    z-index: 1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255,1) 50%,
+        rgba(254, 255, 0, 0) 50%
+      );
+    width: 77vw;
+    height: 18vh;
+    top: 47vh;
+    left: 11.5vw;
+    border-radius: 10px 0;
+}
+.upper-triangle2 h3{
+    font-size: 4vh;
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+}
+.bottom-triangle2{
+    position: absolute;
+    z-index: 1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(3, 3, 3,1) 50%
+      );
+      border-radius: 10px 0;
+    width: 77vw;
+    height: 18vh;
+    top: 48vh;
+    left: 11.5vw;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bottom-triangle2 h3{
+    font-size: 4vh;
+    color: white;
+    position: absolute;
+    bottom: 4vw;
+    right: 4vw;
+}
+.upper-triangle3{
+    position: absolute;
+    z-index: 1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255,1) 50%,
+        rgba(254, 255, 0, 0) 50%
+      );
+      border-radius: 10px 0;
+    width: 77vw;
+    height: 18vh;
+    top: 67vh;
+    left: 11.5vw;
+}
+.upper-triangle3 h3{
+    font-size: 4vh;
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+}
+.bottom-triangle3{
+    position: absolute;
+    z-index: 1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(3, 3, 3,1) 50%
+      );
+      border-radius: 10px 0;
+    width: 77vw;
+    height: 18vh;
+    top: 68vh;
+    left: 11.5vw;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bottom-triangle3 h3{
+    font-size: 4vh;
+    color: white;
+    position: absolute;
+    bottom: 4vw;
+    right: 4vw;
+}
+.gakka-info{
+    width: 77vw;
+    height: 69vh;
+    position: relative;
+    top: 12.5vh;
+    background-color: azure;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    left: 11.5vw;
+    border-radius: 10px;
+}
+.gakka-info h3{
+    font-size: 4vh;
+    position: relative;
+    top: 4vw;
+    left: 4vw;
+}
+@media only screen and (min-width: 1024px){
+
+}

@@ -9,12 +9,12 @@
   );
   padding: 3% 7%;
   /* background-attachment: fixed; */
-  height: 95vh;
+  height: 100vh;
 }
 .concept-background{
   background-attachment: fixed;
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   margin: 0;
   padding: 0%;
   position: relative;
@@ -23,7 +23,7 @@
   background-size: cover;
 }
 .concept-h1 {
-  font-size: 3rem;
+  font-size: larger;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 25px;
@@ -46,4 +46,32 @@
 }
 .card {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+@media only screen and (max-width: 575px){
+  #concept{
+    height: 100vh;
+    width: 100vw;
+  }
+  .concept-h1{
+    font-size: 5vh;
+  }
+  .concept-logo{
+    position: relative;
+    top: 10vh;
+    height: 30vh;
+    overflow: hidden;
+  }
+  .concept-logo img{
+    display: none;
+  }
+  .concept-vision{
+    display: block;
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
+    top: 20vh;
+  }
+  .concept-vision img{
+    display: none;
+  }
 }

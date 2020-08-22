@@ -1,0 +1,48 @@
+.student-info {
+  display: inline-block;
+  background-color: azure;
+  height: 18vh;
+  width: 77vw;
+  margin-left: 11.5vw;
+  margin-top: 6.25vh;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.student-info img{
+    position: relative;
+    height: 12.5vh;
+    width: 12.5vh;
+    z-index: 4;
+    top: -6.25vh;
+    border-radius: 50%;
+}
+.student-name{
+    position: relative;
+    top: -12.5vh;
+    background-color: limegreen;
+    height: 18vh;
+    width: 33vw;
+    background: rgb(186,195,34);
+}
+.student-name h3, .uni-name h3, .student-rating h3{
+    position: relative;
+    top: 6.25vh;
+    font-size: 4vh;
+}
+.uni-name{
+    position: relative;
+    top: -30.5vh;
+    background-color: green;
+    height: 18vh;
+    width: 33vw;
+    left: 22vw;
+    z-index: 2;
+}
+.student-rating{
+    position: relative;
+    top: -48.5vh;
+    background-color: lime;
+    height: 18vh;
+    width: 33vw;
+    left: 44vw;
+    z-index: 3;
+}

@@ -7,7 +7,7 @@ function Concept() {
     <section className="container-fluid" id="concept">
       
       <h1 className="concept-h1">"Concept"</h1>
-      <div data-aos="fade-right" className="concept-logo">
+      <div data-aos="flip-left" className="concept-logo">
         <div  class="card mb-3 text-white bg-secondary" style={{ "max-width": "540px" }}>
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -28,7 +28,7 @@ function Concept() {
         </div>
       </div>
       <div className="concept-vision">
-        <div data-aos="fade-left" class="card mb-3 text-white bg-secondary" style={{ "max-width": "540px" }}>
+        <div data-aos="flip-right" class="card mb-3 text-white bg-secondary" style={{ "max-width": "540px" }}>
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="https://images.unsplash.com/photo-1569236529148-ad88dc554d69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" class="card-img" alt="..." />
