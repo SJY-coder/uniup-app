@@ -27,6 +27,7 @@
   margin: 20px auto;
   width: 200px;
   border-radius: 25px;
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 760px) {

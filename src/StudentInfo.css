@@ -1,6 +1,6 @@
 .student-info {
   display: inline-block;
-  background-color: azure;
+  background-color: black;
   height: 18vh;
   width: 77vw;
   margin-left: 11.5vw;
@@ -45,4 +45,35 @@
     width: 33vw;
     left: 44vw;
     z-index: 3;
+}
+@media only screen and (min-width: 1024px){
+    .student-info{
+        width: 19.25vw;
+        margin-left: 2.875vw;
+    }
+    .student-info img{
+        width: 3.125vw;
+        height: 3.125vw;
+        top: -3.125vh;
+    }
+    .student-name{
+        top: -6.25vh;
+        width: 8.25vw;
+    }
+    .uni-name{
+        top: -24.3vh;
+        width: 8.25vw;
+        left: 5.5vw;
+    }
+    .student-rating{
+        width: 8.25vw;
+        top: -42.3vh;
+        left: 11vw;
+    }
+    .student-name h3, .uni-name h3, .student-rating h3{
+        position: relative;
+        top: 6.25vh;
+        font-size: 3vh;
+    }
+
 }

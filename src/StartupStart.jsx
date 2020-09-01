@@ -13,8 +13,8 @@ function StartupStart() {
              <h1 className="select-h1">Select</h1>
         
              <Link to="/start-up-start/student"><button className="select-btn">学生から探す</button></Link>
-        <button className="select-btn">b</button>
-        <button className="select-btn">c</button>
+            <Link to="./start-up-start/timeline"><button className="select-btn">Timelineから探す</button></Link> 
+                <button className="select-btn">c</button>
        
          </div>
         </div>

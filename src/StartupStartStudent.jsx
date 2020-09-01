@@ -23,6 +23,7 @@ function StartupStartStudent() {
       </div>
       <div className="student-wrapper">
       <StudentInfo />
+      <StudentInfo />
       </div>
     </div>
   );

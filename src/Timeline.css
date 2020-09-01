@@ -1,0 +1,35 @@
+.jyoken-wrapper button{
+    background-color: deepskyblue;
+    margin-top: 3.125vh;
+    margin-bottom: 3.125vh;
+    width: 100vw;
+    height: 6.25vh;
+}
+.add-work{
+    text-align: right;
+    position: sticky;
+    bottom: 0;
+    z-index: 3;
+}
+.search-wrapper{
+    display: none;
+}
+@media only screen and (min-width: 750px){
+    .jyoken-wrapper button{
+        position: absolute;
+        margin-left: 12.5vw;
+        width: 15.625vw;
+        top: 11vh;
+        height: 100vh;
+    }
+    .search-wrapper{
+        display: inline-block;
+        width: 53.125vw;
+        position: absolute;
+        top: 11vh;
+        margin-bottom: 2.5vh;
+        margin-left: 31.25vw;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+    }
+}

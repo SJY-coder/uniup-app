@@ -167,5 +167,52 @@ font-weight: bold;
     left: 4vw;
 }
 @media only screen and (min-width: 1024px){
+    .gakubu-wrapper{
+        position: absolute;
+        top: 0;
+        width: 25vw;
+        height: 100vh;
+        display: inline-block;
+        background: rgba(253,114,45,1);
+    }
+    .gakubu-wrapper h1{
+        top: 12.5vh;
+        left: 5.75vw;
+        text-align: center;
+        font-size: 6.75vw;
+        font-weight: bold;
+    }
+    .upper-triangle ,.upper-triangle2, .upper-triangle3, .bottom-triangle, .bottom-triangle2, .bottom-triangle3{
+        width: 19.25vw;
+        left: 2.875vw;
+    }
+    .upper-triangle h3,.upper-triangle2 h3, .upper-triangle3 h3{
+        top: 1vw;
+        left: 1vw;
+    }
+    .bottom-triangle h3, .bottom-triangle2 h3, .bottom-triangle3 h3{
+        bottom: 1vw;
+        right: 1vw;
+    }
+    .gakka-wrapper{
+        position: absolute;
+        top: 0;
+        left: 25vw;
+        display: inline-block;
+        background: rgba(253,114,45,1);
+        width: 50vw;
+        height: 100vh;
+    }
+    .gakka-info{
+        width: 38.5vw;
+        left: 5.75vw;
+        top: 17vh;
+    }
+    .student-wrapper{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        width: 25vw;
 
+    }
 }
